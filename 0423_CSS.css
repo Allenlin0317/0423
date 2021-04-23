@@ -1,0 +1,61 @@
+
+#Facebook{
+	width: 100%;
+	height: 70%;
+	float: left;
+	border-collapse: 3px;
+	border-style:solid;
+	background-color: pink;
+	box-sizing:border-box; 
+}
+#Header{
+	background-color: blue;	
+	left: 0;
+	top:0;
+	height: 5%;
+}
+#Content{
+	margin-top:5%; 
+	
+}
+#left{
+	background-color:purple; 
+	float: left;
+	width: 15%;
+	height:80%;
+}
+#Yahoo{
+	background-color:orange; 
+	float: left;
+	width: 55%;
+	height:80%;
+	overflow: auto;
+	overflow: -moz-scrollbars-none;
+	-ms-overflow-style: none;
+}
+#Yahoo::-webkit-scrollbar { 
+  width: 0 !important;
+  display: none; 
+}
+#news{
+	background-color:red; 
+	float: left;
+	width: 100%;
+	height:40%;
+	border-collapse: 3px;
+	border-style:solid;
+	margin:50px auto;
+	display: block
+}
+#ad{
+	background-color:green; 
+	float: left;
+	width: 15%;
+	height:80%;
+}
+#right{
+	background-color:skyblue; 
+	float: left;
+	width: 15%;
+	height:80%;
+}
